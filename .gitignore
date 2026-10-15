@@ -1,0 +1,30 @@
+# Byte-compiled / optimised
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model cache
+models/
+*.bin
+*.safetensors
+
+# Eval reports (generated)
+data/metadata/eval_reports/
